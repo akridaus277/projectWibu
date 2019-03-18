@@ -1,0 +1,7 @@
+python index.py --dataset cropped --index index.csv
+
+python search.py --index index.csv --query queries/asta4.jpg --result-path dataset
+
+python crop.py dataset cropped
+
+
